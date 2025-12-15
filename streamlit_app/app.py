@@ -10,7 +10,7 @@ st.set_page_config(
     layout="wide",
 )
 
-API_URL = "http://127.0.0.1:5000/predict"
+API_URL = "abalone_project.railway.internal/predict"
 
 # =========================
 # I18N (ID/EN)
