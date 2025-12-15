@@ -4,8 +4,9 @@ import numpy as np
 import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, "..", "saved_model", "model.pkl")
-FEATURE_PATH = os.path.join(BASE_DIR, "..", "saved_model", "features.pkl")
+MODEL_PATH = os.path.join(BASE_DIR, "saved_model", "model.pkl")
+FEATURE_PATH = os.path.join(BASE_DIR, "saved_model", "features.pkl")
+
 
 _model = None
 _features = None
