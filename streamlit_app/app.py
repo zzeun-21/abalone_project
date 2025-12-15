@@ -198,7 +198,7 @@ st.markdown(
       .block-container { max-width: 1400px; padding-top: 1rem; padding-bottom: 3rem; }
       
       header[data-testid="stHeader"] { background: rgba(0,0,0,0); }
-      div[data-testid="stToolbar"] { visibility: hidden; }
+    #   div[data-testid="stToolbar"] { visibility: hidden; }
 
       /* Header with logo and language */
       .top-header{
